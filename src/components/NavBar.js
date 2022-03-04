@@ -8,9 +8,12 @@ const navbar = () =>{
       <h3>logo</h3>
     </li>
     <li>
-      <h3>docs</h3>
+      <form action="https://github.com/oslabs-beta/graphQLock" target="_blank">
+        <button id="github" type="submit">Github</button>
+      </form>
     </li>
   </div>
   );
-}
+};
+
 export default navbar;
