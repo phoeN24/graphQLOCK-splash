@@ -1,0 +1,24 @@
+
+
+#navbar {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(31, 208, 214, 0.89);
+}
+
+
+
+#team a {
+  text-decoration: none;
+}
+
+#logo {
+  float: left;
+  margin-right: 5px;
+}
+
+#github {
+margin: 0;
+}

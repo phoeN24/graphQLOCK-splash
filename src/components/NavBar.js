@@ -3,16 +3,14 @@ import React from 'react';
 
 const navbar = () =>{
   return (
-  <div>
-    <li>
+  <ul id="navbar">
+    <li id="logo">
       <h3>logo</h3>
     </li>
-    <li>
-      <form action="https://github.com/oslabs-beta/graphQLock" target="_blank">
-        <button id="github" type="submit">Github</button>
-      </form>
+    <li id="github" >
+      <a href="https://github.com/oslabs-beta/graphQLock" target="_blank">Github</a>
     </li>
-  </div>
+  </ul>
   );
 };
 

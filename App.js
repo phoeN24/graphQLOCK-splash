@@ -1,11 +1,19 @@
 
 import React from 'react';
 import NavBar from './src/components/NavBar'
+import Team from './src/components/theTeam'
+import './src/styles.css'
 const App = props => {
   return(
-    <div className="router">
-    <NavBar/>
-  </div>
+    <body>
+      <div className="navbar">
+        <NavBar/>
+      </div>
+      
+      <div className='team'>
+       <Team/>
+      </div>
+    </body>
   )
 }
 
