@@ -5,7 +5,7 @@ const navbar = () =>{
   return (
   <ul id="navbar">
     <li id="logo">
-      <h3>logo</h3>
+      <h3>put logo here</h3>
     </li>
     <li id="github" >
       <a href="https://github.com/oslabs-beta/graphQLock" target="_blank">Github</a>

@@ -9,9 +9,25 @@
 }
 
 
-
 #team a {
   text-decoration: none;
+}
+
+#about {
+background-color: rgb(142, 110, 179);
+width: 350px;
+height: 350px;
+
+}
+
+.github{
+margin: 5px;
+color: blue;
+}
+
+.linkden {
+  margin: 5px;
+  color: black;
 }
 
 #logo {
