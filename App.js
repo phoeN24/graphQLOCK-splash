@@ -7,7 +7,7 @@ import './src/styles.css'
 const App = props => {
   return(
     <body>
-      <div className="navbar">
+      <div className='navbar'>
         <NavBar/>
       </div>
 

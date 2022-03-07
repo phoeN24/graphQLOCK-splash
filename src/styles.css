@@ -1,13 +1,20 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed&display=swap');
 
 #navbar {
   list-style-type:none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  background-color: rgba(31, 208, 214, 0.89);
+  background-image: linear-gradient(to right,rgb(83, 76, 76), rgb(24, 119, 148));
 }
 
+#title {
+  margin-left: 3%;
+  font-family: 'Asap Condensed', sans-serif;
+  color:rgb(209, 209, 209);
+  position: absolute;
+  font-size: 40px;
+  top: 5%
+}
 
 #team a {
   text-decoration: none;
@@ -31,8 +38,10 @@ color: blue;
 }
 
 #logo {
-  float: left;
-  margin-right: 5px;
+  margin-top: 1%;
+  margin-left: 3%;
+  top: 5%;
+  width: 100px;
 }
 
 #github {
