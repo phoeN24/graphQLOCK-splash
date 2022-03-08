@@ -4,13 +4,13 @@
   list-style-type:none;
   margin: 0;
   padding: 0;
-  background-image: linear-gradient(to right,rgb(83, 76, 76), rgb(24, 119, 148));
+  background-image: linear-gradient(to right,#534c4c, #0f86aa);
 }
 
 #title {
   margin-left: 3%;
   font-family: 'Asap Condensed', sans-serif;
-  color:rgb(209, 209, 209);
+  color:#d1d1d1;
   position: absolute;
   font-size: 40px;
   top: 5%
@@ -44,6 +44,33 @@ color: blue;
   width: 100px;
 }
 
-#github {
-margin: 0;
+.button {
+  position: absolute;
+  top:5%;
+  left: 80%;
+  height:30px;
+  width: 70px;
+  font: bold 17px Arial;
+  text-align: center;
+  text-decoration: none;
+  margin:0 0.3em 0.3em 0;
+  color: #333333;
+  box-sizing: content-box;
+  padding: 0.35em 1.2em;
+
+  background-color: #100714;
+  border-radius: 0.12em;
+  transition: all 0.2s;
+  color: #0f86aa;
+}
+
+.button:hover {
+  color: #000000;
+  background-color: #534c4c;
+}
+@media all and (max-width:30em){
+  a.button{
+    display: block;
+    margin: 0.4em auto;
+  }
 }
