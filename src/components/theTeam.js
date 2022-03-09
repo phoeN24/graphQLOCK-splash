@@ -5,7 +5,7 @@ const Team = () => {
     <ul class="team"> 
       <div class="dev">
         <a class="linkden" href="https://www.linkedin.com/in/huangcharlie/" target="_blank">Charlie Huang</a><br/>
-        <a class="github" href="https://github.com/huangcharlie" target="_blank">@CharlieHuangDev</a>
+        <a class="github" href="https://github.com/huangcharlie" target="_blank">@huangcharlie</a>
       </div>
       <div class="dev">
         <a class="linkden" href="https://www.linkedin.com/in/drake-williams-7b8b1262/" target="_blank">Drake williams</a><br/>
