@@ -8,7 +8,7 @@ const Team = () => {
         <a class="github" href="https://github.com/huangcharlie" target="_blank">@huangcharlie</a>
       </div>
       <div class="dev">
-        <a class="linkden" href="https://www.linkedin.com/in/drake-williams-7b8b1262/" target="_blank">Drake williams</a><br/>
+        <a class="linkden" href="https://www.linkedin.com/in/drake-williams-7b8b1262/" target="_blank">Drake Williams</a><br/>
         <a class="github" href="https://github.com/DRWilliams527" target="_blank">@DRWilliams527</a>
       </div>
       <div class="dev">
