@@ -55,12 +55,6 @@ body{
 
 
 .button {
-  margin-top: 50px;
-  margin-right: 2px;
-  position:absolute;
-  top:0;
-  right:0;
-  margin-right: 2em;
   text-align: center;
   border-radius: 5px;
   border: 0.1em solid lightgray;
@@ -75,6 +69,23 @@ body{
   color:#000000;
   background-color: lightgray;
 
+}
+#github{
+  margin-top: 40px;
+  margin-right: 2px;
+  position:absolute;
+  top:0;
+  right:0;
+  margin-right: 4em;
+}
+
+#medium{
+  margin-top: 80px;
+  margin-right: 2px;
+  position:absolute;
+  top:0;
+  right:0;
+  margin-right: 2em;
 }
 
 .linkden {
