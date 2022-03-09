@@ -13,27 +13,76 @@
   color:#d1d1d1;
   position: absolute;
   font-size: 40px;
-  top: 5%
+  top: 5.5%
 }
 
-#team a {
-  text-decoration: none;
+
+.team {
+  column-count: 2;
+  column-rule-style: solid;
+  display: inline-block;
+  column-width: 100px;
+  column-gap: 50px;
+  row-gap: 40px;
 }
+
+ #charlie{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+ }
+
+ #drake{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+ }
+
+ #jiwon{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+ }
+
+ #phoenix{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+ }
 
 #about {
-background-color: rgb(142, 110, 179);
-width: 350px;
-height: 350px;
-
+  border:0.1em solid #110f0f;
+  height: 350px;
+  margin: 1em;
+  text-align: center;
 }
 
-.github{
-margin: 5px;
-color: blue;
+
+.button {
+  margin-top: 50px;
+  margin-right: 2px;
+  position:absolute;
+  top:0;
+  right:0;
+  margin-right: 2em;
+  text-align: center;
+  border-radius: 5px;
+  border: 0.1em solid lightgray;
+  box-sizing: content-box;
+  font: bold 18px Arial;
+  text-decoration: none;
+  color: #d3d0d0;
+  height: 28px;
+  width: 70px;
+}
+.button:hover {
+  color:#000000;
+  background-color: lightgray;
+
 }
 
 .linkden {
-  margin: 5px;
+  margin-left: 10px;
   color: black;
 }
 
@@ -42,35 +91,4 @@ color: blue;
   margin-left: 3%;
   top: 5%;
   width: 100px;
-}
-
-.button {
-  position: absolute;
-  top:5%;
-  left: 80%;
-  height:30px;
-  width: 70px;
-  font: bold 17px Arial;
-  text-align: center;
-  text-decoration: none;
-  margin:0 0.3em 0.3em 0;
-  color: #333333;
-  box-sizing: content-box;
-  padding: 0.35em 1.2em;
-
-  background-color: #100714;
-  border-radius: 0.12em;
-  transition: all 0.2s;
-  color: #0f86aa;
-}
-
-.button:hover {
-  color: #000000;
-  background-color: #534c4c;
-}
-@media all and (max-width:30em){
-  a.button{
-    display: block;
-    margin: 0.4em auto;
-  }
 }

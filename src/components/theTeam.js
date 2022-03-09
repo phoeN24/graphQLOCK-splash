@@ -2,7 +2,7 @@ import React from 'react';
 
 const Team = () => {
   return (
-    <ul id="team"> 
+    <ul class="team"> 
       <div id="charlie">
         <a class="github" href="https://github.com/CharlieHuangDev" target="_blank">CharlieHuangDev</a>
         <a class="linkden" href="https://github.com/CharlieHuangDev" target="_blank">put Charlie linkden</a>

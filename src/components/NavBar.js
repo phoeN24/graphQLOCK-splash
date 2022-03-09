@@ -10,7 +10,7 @@ const navbar = () =>{
       <b id="title">GraphQLock</b>
     </li>
     <li id="github" >
-      <a href="https://github.com/oslabs-beta/graphQLock" target="_blank" class="button">Github</a>
+      <a href="https://github.com/oslabs-beta/graphQLock" target="_blank" class="button">GitHub</a>
     </li>
   </ul>
   );
