@@ -43,6 +43,7 @@ body{
 
 #about {
   height: auto;
+  margin-bottom: 100px;
   margin: auto;
   width: 75%;
   color: #182127;
@@ -64,7 +65,7 @@ body{
   border-radius: 5px;
   border: 0.1em solid lightgray;
   box-sizing: content-box;
-  font: bold 18px Arial;
+  font: bold 18px sans-serif;
   text-decoration: none;
   color: #d3d0d0;
   height: 28px;
@@ -77,7 +78,22 @@ body{
 }
 
 .linkden {
-  color: black;
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 16pt;
+  text-decoration: none;
+  color:rgb(9, 37, 75);
+}
+.linkden:hover {
+  color: rgb(216, 52, 52);
+}
+
+.github{
+  text-decoration: none;
+  color:rgb(9, 37, 75);
+  font-family: 'Asap Condensed', sans-serif;
+}
+.github:hover {
+  color: rgb(216, 52, 52);
 }
 
 #logo {
