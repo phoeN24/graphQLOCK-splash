@@ -10,7 +10,7 @@ const AboutGL = () => {
       </p>
       <p> 
         GraphQLOCK also provides a backbone MongoDB model for the client to persist refresh tokens for continual authorization
-        and authentication with frictionless step up through the use of env file and environment variables.
+        and authentication with frictionless set up through the use of env file and environment variables.
       </p>
     </div>
   )
