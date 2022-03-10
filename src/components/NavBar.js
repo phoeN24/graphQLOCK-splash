@@ -18,6 +18,9 @@ const navbar = () =>{
     <li id="gql-linkdin" >
       <a href="https://www.linkedin.com/company/graphqlockofficial" target="_blank" class="button">Linkdin</a>
     </li>
+    <li id="npm" >
+      <a href="https://www.npmjs.com/package/graphqlock" target="_blank" class="button">NPM</a>
+    </li>
   </ul>
   );
 };

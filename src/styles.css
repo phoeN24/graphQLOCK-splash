@@ -76,10 +76,10 @@ body{
   position:absolute;
   top:0;
   right:0;
-  margin-right: 2em;
+  margin-right: 10.5em;
 }
 
-#gql-linkdin{
+#npm{
   margin-top: 40px;
   margin-right: 2px;
   position:absolute;
@@ -88,13 +88,22 @@ body{
   margin-right: 7em;
 }
 
+#gql-linkdin{
+  margin-top: 40px;
+  margin-right: 2px;
+  position:absolute;
+  top:0;
+  right:0;
+  margin-right: 2em;
+}
+
 #medium{
   margin-top: 80px;
   margin-right: 2px;
   position:absolute;
   top:0;
   right:0;
-  margin-right: 2.5em;
+  margin-right: 4em;
 }
 
 .linkden {
