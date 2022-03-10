@@ -15,6 +15,9 @@ const navbar = () =>{
     <li id="medium" >
       <a href="https://medium.com/@drakeocinco/graphqlock-secure-your-graphql-application-with-ease-e7bc3b85baaa" target="_blank" class="button">Medium Article</a>
     </li>
+    <li id="gql-linkdin" >
+      <a href="https://www.linkedin.com/company/graphqlockofficial" target="_blank" class="button">Linkdin</a>
+    </li>
   </ul>
   );
 };

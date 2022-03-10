@@ -76,7 +76,16 @@ body{
   position:absolute;
   top:0;
   right:0;
-  margin-right: 4em;
+  margin-right: 2em;
+}
+
+#gql-linkdin{
+  margin-top: 40px;
+  margin-right: 2px;
+  position:absolute;
+  top:0;
+  right:0;
+  margin-right: 7em;
 }
 
 #medium{
@@ -85,7 +94,7 @@ body{
   position:absolute;
   top:0;
   right:0;
-  margin-right: 2em;
+  margin-right: 2.5em;
 }
 
 .linkden {
